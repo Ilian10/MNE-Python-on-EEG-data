@@ -21,22 +21,16 @@ The main goals of the project are to:
 ```text
 MNE-Python-on-EEG-data/
 ├── FIgures/
-│   ├── easy_PT.webm
-│   ├── hard_PT.webm
-│   ├── solo_PT.webm
-│   ├── easy_SI.webm
-│   ├── solo_SI.webm
-│   ├── hard_SI.webm
 ├── Scripts/
 │   ├── Decoding in sensor's space.ipynb
 │   ├── Decoding in source's space.ipynb
 │   ├── Download_'fsaverage'_data_from_mne.ipynb
 │   ├── Preprocessing sensor's space.ipynb
-│   ├── Preprocessing source's space.ipynb
-├── Reports/
-│   ├── master_thesis_eeg_parkinson.pdf
-│   ├── presentation_eeg_parkinson.pptx
+│   └── Preprocessing source's space.ipynb
+├── master_thesis_eeg_parkinson.pdf
+├── presentation_eeg_parkinson.pptx
 ├── environment.txt
+├── requirements.txt
 └── README.md
 ```
 
@@ -186,7 +180,8 @@ MNE-Python-on-EEG-data/
 ├── Scripts/
 ├── results/
 ├── README.md
-└── environment.txt 
+├── environment.txt
+└── requirements.txt
 ```
 
 If the EEG data contain participant information, keep them outside the public repository and follow the applicable data-protection and research-ethics requirements.
